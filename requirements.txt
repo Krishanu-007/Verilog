@@ -1,0 +1,5 @@
+icarus Verilog link: https://bleyer.org/icarus/
+
+GTK Wave
+
+VS code with Verilog extentions
