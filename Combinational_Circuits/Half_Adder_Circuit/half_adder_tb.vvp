@@ -1,0 +1,43 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_01293AB0 .scope module, "half_adder_tb" "half_adder_tb" 2 2;
+ .timescale 0 0;
+v01297D48_0 .var "a", 0 0;
+v01297DA0_0 .var "b", 0 0;
+v0129ED30_0 .net "carry", 0 0, L_0129EE88; 1 drivers
+v0129ED88_0 .net "sum", 0 0, L_01293B38; 1 drivers
+S_01294E30 .scope module, "add1" "half_adder" 2 6, 3 1, S_01293AB0;
+ .timescale 0 0;
+L_01293B38 .functor XOR 1, v01297D48_0, v01297DA0_0, C4<0>, C4<0>;
+L_0129EE88 .functor AND 1, v01297D48_0, v01297DA0_0, C4<1>, C4<1>;
+v01294EB8_0 .net "a", 0 0, v01297D48_0; 1 drivers
+v01294F10_0 .net "b", 0 0, v01297DA0_0; 1 drivers
+v01297C98_0 .alias "carry", 0 0, v0129ED30_0;
+v01297CF0_0 .alias "sum", 0 0, v0129ED88_0;
+    .scope S_01293AB0;
+T_0 ;
+    %vpi_call 2 9 "$dumpfile", "half_adder.vcd";
+    %vpi_call 2 10 "$dumpvars", 1'sb0, S_01293AB0;
+    %set/v v01297D48_0, 0, 1;
+    %set/v v01297DA0_0, 0, 1;
+    %delay 1, 0;
+    %set/v v01297D48_0, 0, 1;
+    %set/v v01297DA0_0, 1, 1;
+    %delay 1, 0;
+    %set/v v01297D48_0, 1, 1;
+    %set/v v01297DA0_0, 0, 1;
+    %delay 1, 0;
+    %set/v v01297D48_0, 1, 1;
+    %set/v v01297DA0_0, 1, 1;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "half_adder_tb.v";
+    "./half_adder.v";
