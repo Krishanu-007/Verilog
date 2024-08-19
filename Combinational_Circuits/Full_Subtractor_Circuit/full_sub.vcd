@@ -1,0 +1,73 @@
+$date
+	Mon Aug 19 18:40:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module full_sub_tb $end
+$var wire 1 ! borrow $end
+$var wire 1 " diff $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % bi $end
+$scope module fs1 $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( boin $end
+$var wire 1 ! borrow $end
+$var wire 1 " diff $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+1"
+1%
+1(
+#20000
+0%
+0(
+1$
+1'
+#30000
+0"
+1%
+1(
+#40000
+0!
+1"
+0%
+0(
+0$
+0'
+1#
+1&
+#50000
+0"
+1%
+1(
+#60000
+0%
+0(
+1$
+1'
+#70000
+1!
+1"
+1%
+1(
+#90000

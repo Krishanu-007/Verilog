@@ -1,0 +1,98 @@
+$date
+	Mon Aug 19 19:33:58 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fs_hs_tb $end
+$var wire 1 ! borrow $end
+$var wire 1 " diff $end
+$var wire 1 # hs1_b $end
+$var wire 1 $ hs1_d $end
+$var wire 1 % hs2_c $end
+$var reg 1 & a $end
+$var reg 1 ' b $end
+$var reg 1 ( bi $end
+$scope module ha1 $end
+$var wire 1 ) a $end
+$var wire 1 * a_not $end
+$var wire 1 + b $end
+$var wire 1 # borrow $end
+$var wire 1 $ diff $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 $ a $end
+$var wire 1 , a_not $end
+$var wire 1 - b $end
+$var wire 1 % borrow $end
+$var wire 1 " diff $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0-
+1,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+1"
+1%
+1(
+1-
+#20000
+0,
+0%
+1$
+1#
+0(
+0-
+1'
+1+
+#30000
+0"
+1(
+1-
+#40000
+0!
+1"
+0#
+0*
+0(
+0-
+0'
+0+
+1&
+1)
+#50000
+0"
+1(
+1-
+#60000
+1,
+0$
+0(
+0-
+1'
+1+
+#70000
+1!
+1"
+1%
+1(
+1-
+#90000
