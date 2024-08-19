@@ -7,4 +7,6 @@ It can basically be described as the digital circuits which are not dependent on
 For the upcoming days I'll be uploading the coding of different types of combinational circuits.
 
 ## Day-1
-### Basic adder circuits. 
+### Basic adder circuits.
+## Day-2
+### Basic subtractor circuits.
