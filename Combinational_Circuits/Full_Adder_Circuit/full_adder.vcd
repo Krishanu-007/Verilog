@@ -1,5 +1,5 @@
 $date
-	Sun Aug 18 21:32:33 2024
+	Thu Aug 22 19:21:54 2024
 $end
 $version
 	Icarus Verilog
@@ -40,14 +40,10 @@ $dumpvars
 0!
 $end
 #1
-1!
 1"
-1+
 1%
 1(
 #2
-0!
-0+
 1*
 0%
 0(
@@ -85,6 +81,5 @@ $end
 1'
 #7
 1"
-1+
 1%
 1(
