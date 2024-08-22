@@ -1,0 +1,73 @@
+$date
+	Thu Aug 22 20:31:46 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ripple_add_sub_tb $end
+$var wire 1 ! carry $end
+$var wire 4 " result [3:0] $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % ch $end
+$scope module ras1 $end
+$var wire 4 & A [3:0] $end
+$var wire 4 ' B [3:0] $end
+$var wire 1 ( Choice $end
+$var reg 1 ) CARRY $end
+$var reg 4 * RESULT [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1011 *
+0)
+0(
+b101 '
+b110 &
+0%
+b101 $
+b110 #
+b1011 "
+0!
+$end
+#10000
+b1 *
+b1 "
+1%
+1(
+#20000
+b101 *
+b101 "
+0%
+0(
+b1 $
+b1 '
+b100 #
+b100 &
+#30000
+b11 *
+b11 "
+1%
+1(
+#40000
+1)
+1!
+0%
+0(
+b101 $
+b101 '
+b1110 #
+b1110 &
+#50000
+0)
+0!
+b1001 *
+b1001 "
+1%
+1(
+#60000
